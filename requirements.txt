@@ -6,3 +6,5 @@ groq
 python-dotenv
 requests
 langchain-mistralai
+langchain-core
+gunicorn
