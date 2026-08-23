@@ -18,7 +18,7 @@ conversation_history = [
 
 @app.route("/")
 def index():
-    return send_from_directory(".", "chatbot.html")
+    return send_from_directory(".", "index.html")
 
 
 @app.route("/chat", methods=["POST"])
